@@ -7,48 +7,44 @@
     #660033* alex-red
     #cccccc alex-bg
     #f0ebeb white blush/*
-
 /***fonts ***/
 /*font-family: 'Roboto', sans-serif;
 font-family: 'Lora', serif; /*
-
 /*** Base styles ***/
 #about h2, #portfolio h2, #contact h2{
-    font-family: 'Lora', serif;
     color: #660033;
-    font-weight: 700;
+    font-family: 'Lora', serif;
     font-size: 32px;
+    font-weight: 700;
+    margin-top:0px;
     padding: 100px 20px 20px 20px;
     text-align: center;
-    margin-top:0px;
 }
 
-#about{
-    height:800px;
-} 
-#portfolio{
-    height:700px;
-}
-body, #contact{
-    background-color: #f0ebeb;
-}
+#about{ height:800px; } 
+
+#portfolio{ height:700px; }
+
+body, #contact{ background-color: #f0ebeb; }
 
 #portfolio .third-width, #contact .third-width{
-    width:30%;
+    background-color:#f0ebeb;
     float:left;
+    font-family: 'Roboto', sans-serif;
     margin:17.5px;
     text-align:center;
-    font-family: 'Roboto', sans-serif;
-    background-color:#f0ebeb;
+    width:30%;
 }
 /**** header ****/
 
 #header{
-    height: 800px;
     background: linear-gradient(#f0ebeb,#cccccc, transparent), url(../assets/texture.jpg), no-repeat center;
     background-size:cover;
-    box-shadow: 0px 10px 20px -5px rgba(0,0,0,.8); 
+  /*  box-shadow: 0px 10px 20px -5px rgba(0,0,0,.8);  */
+    height: 800px;
 }
+    
+    
 nav{
     float: left;
     margin-left: 70%;
@@ -58,50 +54,48 @@ nav{
     padding-top: 30px;
 }
 #header nav a{
-    text-decoration: none;
-    padding-left: 20px;
     color: #660033;
+    padding-left: 20px;
+    text-decoration: none;
 }
 #header h1{
     clear:both;
     font-family: 'Lora', serif;
     font-size: 72px;
-    padding-top: 200px;
     margin-bottom: 10px;
+    padding-top: 200px;
+   
 
 }
 #header h2{
     font-family: 'Roboto', sans-serif;
     font-size: 40px;
 }
-#header span{
-    color:#660033;
-}
-.full-width{
-    padding-left: 50px;
-}
+#header span{ color:#660033; }
+
+.full-width{ padding-left: 50px; }
+
 #about img{
-    width:283px;
-    height:283px;
     border:1px solid #660033;
     border-radius:50%;
     display: block;
+    height:283px; 
     margin-left: auto;
     margin-right: auto;
     margin-top: 50px;
+    width:283px;
 }
 
 /*** about ***/
-#about{
-    background-color: #f0ebeb;
-}
+#about{ background-color: #f0ebeb; }
+
 #about p{
     font-family: 'Roboto', sans-serif;
     font-size:24px;
     line-height:36px;
-    width: 60%;
     margin: 0 auto;
     padding: 40px 20px 20px 20px;
+    width: 60%;
 }
 
 /*** portfolio ***/
@@ -110,13 +104,13 @@ nav{
     background:#cccccc;
 }
 #portfolio .third-width{
-        border: 2px solid #660033;
+    border: 2px solid #660033;
     border-radius:5px;
 }
 #portfolio .third-width img{
+    height: 100px;
     margin:20px;
     width: 150px;
-    height: 100px;
 }
 
 #portfolio p{
@@ -132,16 +126,12 @@ nav{
     clear:both;
     margin: 0 auto;
 }
-#contact .third-width i{
-    margin: 10px 20px 10px 20px;
-}
-#contact h3, #contact p{
-    font-family: 'Roboto', sans-serif;
+#contact .third-width i{ margin: 10px 20px 10px 20px; }
 
-}
-#contact h3{
-    font-size: 20px;
-}
+#contact h3, #contact p{ font-family: 'Roboto', sans-serif; }
+
+#contact h3{ font-size: 20px; }
+
 #contact p{
     font-size:16px;
     line-height: 24px;
